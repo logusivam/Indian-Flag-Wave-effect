@@ -165,5 +165,8 @@
                         color-stop(100%, rgba(255,255,255,0))),
                         
                         -webkit-gradient(linear, 50% 30%, 100% top, color-stop(0%,rgba(224,225,225,0)),
-                        );
+                        color-stop(25%,rgba(225,225,225,0.3)),
+                        color-stop(50%,rgba(224,225,225,0)),
+                        color-stop(80%,rgba(224,225,225,0.3)),
+                        color-stop(100%,rgba(224,225,225,0)));
 }
