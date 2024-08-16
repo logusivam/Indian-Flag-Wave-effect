@@ -101,3 +101,38 @@
     -webkit-transform: rotate(90deg); 
     transform: rotate(90deg);
 }
+
+.bar:nth-child(7)
+{
+    -ms-transform: rotate(105deg);
+    -webkit-transform: rotate(105deg);
+    transform: rotate(105deg);
+}
+
+.bar:nth-child(8)
+{
+    -ms-transform: rotate(120deg);
+    -webkit-transform: rotate(120deg);
+    transform: rotate(120deg);
+}
+
+.bar:nth-child(9)
+{
+    -ms-transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+
+.bar:nth-child(10)
+{
+    -ms-transform: rotate(150deg);
+    -webkit-transform: rotate(150deg);
+    transform: rotate(150deg);
+}
+.bar:nth-child(11)
+{
+    -ms-transform: rotate(165deg);
+    -webkit-transform: rotate(165deg);
+    transform: rotate(165deg);
+}
+
