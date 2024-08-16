@@ -159,5 +159,10 @@
     height: 120px;
     margin: -220px auto;
     z-index: 2;
-    background-image: -webkit-gradient(linear, 0% 30%, 50% top, color-stop(0%,rgba(255,255,255,0)), color);
+    background-image: -webkit-gradient(linear, 0% 30%, 50% top, color-stop(0%,rgba(255,255,255,0)), 
+                        color-stop(40%,rgba(255,255,255,0)),
+                        color-stop(90%, rgba(255,255,255,0.3)),
+                        color-stop(100%, rgba(255,255,255,0))),
+                        
+                        -webkit-gradient(linear);
 }
