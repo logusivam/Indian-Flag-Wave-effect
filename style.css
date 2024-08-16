@@ -11,3 +11,21 @@
     height: 40px;
     background-color: #ff9933;
 }
+
+/* white */
+.white
+{
+    width: 200px;
+    height: 40px;
+    background-color: #fff;
+}
+
+/* green */
+.green
+{
+    width: 200px;
+    height: 40px;
+    background-color: #128807;
+}
+
+/* chakra */
