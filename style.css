@@ -1,0 +1,13 @@
+.flag
+{
+    width: 200px;
+    margin: 100px auto;
+}
+
+/* orange color */
+.orange
+{
+    width: 200px;
+    height: 40px;
+    background-color: #ff9933;
+}
