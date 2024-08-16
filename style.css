@@ -29,3 +29,40 @@
 }
 
 /* chakra */
+.circle
+{
+    width: 35px;
+    height: 35px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    margin: 0px auto;
+    -webkit-animation: circle 5s infinite;
+    animation: circle 10s linear 2s infinite;
+}
+
+.circle::after
+{
+    content: '';
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background-color: #000000;
+}
+
+/* bar  */
+.bar
+{
+    position: absolute;
+    display: inline-block;
+    height: 35px;
+    width: 2px;
+    background: #000000;
+    left: 47%;
+}
+
+.bar:nth-child(1)
+{
+    -ms-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    transform: rotate(30deg);
+}
