@@ -183,4 +183,9 @@
     {
         background-position: -400px 0px, -400px 0px, -400px 0px, -400px 0px;
     }
+
+    100%
+    {
+        background-position: 800px 0px, 800px 0px, 800px 0px, 800px 0px;
+    }
 }
