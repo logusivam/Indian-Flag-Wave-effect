@@ -199,4 +199,39 @@
     width: 100px;
     animation-timing-function: linear;
     animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-name: load;
+}
+
+@keyframes load 
+{
+    0%
+    {
+        width: 20px;
+    }
+
+    25%
+    {
+        width: 50px;
+    }
+
+    50%
+    {
+        width: 100px;
+    }
+
+    75%
+    {
+        width: 150px;
+    }
+
+    100%
+    {
+        width: 200px;
+    }
+}
+
+.laoderconatiner
+{
+    margin: 10% auto;
 }
