@@ -136,7 +136,7 @@
     transform: rotate(165deg);
 }
 
-@-webkit-keyframes circle
+@keyframes circle
 {
     from
     {
@@ -182,7 +182,7 @@
                         -webkit-animation-timing-function: linear;
 }
 
-@-webkit-keyframes flagwave 
+@keyframes flagwave 
 {
     0%
     {
