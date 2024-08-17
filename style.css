@@ -189,3 +189,14 @@
         background-position: 800px 0px, 800px 0px, 800px 0px, 800px 0px;
     }
 }
+
+#loader
+{
+    color: #000;
+    background: red;
+    background: linear-gradient(to bottom right, #ff9933,#ffffff,#128807);
+    height: 20px;
+    width: 100px;
+    animation-timing-function: linear;
+    animation-duration: 15s;
+}
