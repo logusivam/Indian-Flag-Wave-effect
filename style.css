@@ -170,6 +170,11 @@
                         color-stop(80%,rgba(224,225,225,0.3)),
                         color-stop(100%,rgba(224,225,225,0)));
 
+                        animation-name: flagwave;
+                        animation-duration: 10s;
+                        animation-timing-function: linear;
+
+
                         background-size: 200%;
                         background-position: right;
                         -webkit-animation-name: flagwave;
